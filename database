@@ -1,1 +1,4 @@
+git rm database
+git commit -m "chore: remove file database"
+git push
 
