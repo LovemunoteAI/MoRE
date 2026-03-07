@@ -16,10 +16,6 @@ While pre-trained transformer backbones have shown broad generalization capabili
 
 We present **MoRE**, a framework that aligns heterogeneous assays into a shared latent space by repurposing **frozen pre-trained transformers**.
 
-<p align="center">
-  <img src="figures/more_overview.png" alt="MoRE overview" width="800"/>
-</p>
-
 ---
 
 ## Key Idea
@@ -37,10 +33,6 @@ Specifically, MoRE introduces:
 - **modality-specific lightweight adapters**
 - **a task-adaptive fusion layer**
 - **parameter-efficient fine-tuning (PEFT)** on top of a frozen backbone
-
-<p align="center">
-  <img src="figures/more_architecture.png" alt="MoRE architecture" width="800"/>
-</p>
 
 ---
 
