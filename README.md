@@ -59,7 +59,7 @@ Run the workflow in the following order:
 Open and run:
 
 ```bash
-code/1.\ annotate.ipynb
+code/1.annotate.ipynb
 ```
 
 This notebook handles dataset annotation and preprocessing.
@@ -68,7 +68,7 @@ This notebook handles dataset annotation and preprocessing.
 Then open and run:
 
 ```bash
-code/2.\ run\ MoRE.ipynb
+code/2.run MoRE.ipynb
 ```
 
 This notebook performs model execution, embedding generation, and downstream integration analysis.
