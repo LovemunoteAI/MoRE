@@ -49,3 +49,35 @@ This design enables the model to learn embeddings that generalize across:
 - unseen cell types  
 - unseen platforms  
 - heterogeneous omics assays 
+
+
+## Usage
+
+Run the workflow in the following order:
+
+### 1. Annotation
+Open and run:
+
+```bash
+code/1.\ annotate.ipynb
+```
+
+This notebook handles dataset annotation and preprocessing.
+
+### 2. MoRE Training / Integration
+Then open and run:
+
+```bash
+code/2.\ run\ MoRE.ipynb
+```
+
+This notebook performs model execution, embedding generation, and downstream integration analysis.
+
+### 3. Model Definition
+The core model is implemented in:
+
+```bash
+code/MoRE_model.py
+```
+
+Make sure this file remains in the correct directory so the notebooks can import it properly.
