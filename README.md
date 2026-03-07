@@ -68,7 +68,7 @@ This notebook handles dataset annotation and preprocessing.
 Then open and run:
 
 ```bash
-code/2.run MoRE.ipynb
+code/2.run_MoRE.ipynb
 ```
 
 This notebook performs model execution, embedding generation, and downstream integration analysis.
