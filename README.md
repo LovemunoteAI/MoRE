@@ -77,7 +77,7 @@ This notebook performs model execution, embedding generation, and downstream int
 The core model is implemented in:
 
 ```bash
-python code/MoRE_model.py
+python MoRE_model.py
 ```
 
 Make sure this file remains in the correct directory so the notebooks can import it properly.
